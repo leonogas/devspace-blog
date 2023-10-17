@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next  --openssl-legacy-provider start",
+    "start": "next --openssl-legacy-provider start",
     "cache-posts": "node scripts/cache.js",
     "prepare": "husky install"
   },
